@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice-Enabled Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+        #transcription-output {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Voice-Enabled Chatbot</h1>
+    <p>Press the mic button and start talking!</p>
+    <button id="micButton">🎤 Press to Speak</button>
+    <p id="status">Listening...</p>
+    <div id="transcription-output"></div> <!-- This will show the transcript -->
+
+    <script src="script.js"></script>
+</body>
+</html>
